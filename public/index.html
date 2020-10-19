@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>chuly runners</title>
+  <link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico">
+  <!--bootstrap css-->
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://bootswatch.com/4/litera/bootstrap.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <!--ANIMATE CSS-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+
+<!--       --------------BODY---------------------              -->
+
+<body>
+
+  <!--       --------------NAVIGATION---------------------              -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light animate__animated animate__slideInDown">
+    <span><img loading="lazy" src="https://image.flaticon.com/icons/png/512/103/103956.png" width="40" alt=""></span>
+    <div class="container">
+      <a class="navbar-brand " href="#">Chuly runners</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-link active " href="#">Inicio <span><svg width="1em" height="1em" viewBox="0 0 16 16"
+                class="bi bi-house" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />
+                <path fill-rule="evenodd"
+                  d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z" />
+              </svg></span></a>
+
+          <a class="nav-link" id="signuplabel" data-toggle="modal" data-target="#signup" href="#">Registrar <span><svg
+                width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-box-arrow-in-down" fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M3.5 6a.5.5 0 0 0-.5.5v8a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5v-8a.5.5 0 0 0-.5-.5h-2a.5.5 0 0 1 0-1h2A1.5 1.5 0 0 1 14 6.5v8a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 14.5v-8A1.5 1.5 0 0 1 3.5 5h2a.5.5 0 0 1 0 1h-2z" />
+                <path fill-rule="evenodd"
+                  d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z" />
+              </svg></span></a>
+
+          <a class="nav-link" data-toggle="modal" data-target="#signin" id="signinlabel" href="#">Ingresar <span><svg
+                width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-box-arrow-left" fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M6 12.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v2a.5.5 0 0 1-1 0v-2A1.5 1.5 0 0 1 6.5 2h8A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 5 12.5v-2a.5.5 0 0 1 1 0v2z" />
+                <path fill-rule="evenodd"
+                  d="M.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L1.707 7.5H10.5a.5.5 0 0 1 0 1H1.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3z" />
+              </svg></span>
+          </a>
+          <a class="nav-link" type="submit" id="about" href="about.html">Acerca de nosotros</a>
+          <a class="nav-link" type="submit" id="logout" href="#"></a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  <!--       --------------MAIN CONTENT---------------------              -->
+  <div class="container mt-4 ">
+    <div class="row">
+      <!--       --------------EVENT INFO---------------------              -->
+      <div class=" col-md-4 ">
+        <h2 class="oswald-font  bone">Evento Nacional </h2>
+        <h5><span
+            class="btn btn-primary SansitaSwashed-font animate__animated animate__heartBeat  animate__delay-1s ">carrera</span>
+          <span
+            class="btn btn-success SansitaSwashed-font animate__animated animate__heartBeat  animate__delay-2s">evento</span>
+        </h5>
+        <div class="card card-body bg-primary  py-2">
+          <p class="ubuntu-font  white">
+            <span>🎉</span> celebrando el aniversario del equipo de corredores Chuly Runners, organizamos nuestra
+            primera carrera online <span>😎👏</span>
+          </p>
+          <p class="white ubuntu-font">
+            La inscripciones tienen un costo de 1 $ y se hará un sorteo entre todos los participante por el premio del
+            1er lugar
+          </p>
+          <hr class="bg-light">
+          <p class="gray ubuntu-font">
+			<span class="white">para poder participar tienes que pagar por pago movil o mas infomación 04125259367 y despues tienes que registrarte en esta página
+			
+			<p><span class="gray">cancelar por pago movíl:</span></p>
+			<div class="bg-dark p-2 bone ubuntu-font">
+						<li>douglas aguilar
+			</li>
+			<li>
+			banco: 0102 banco de venezuela
+			</li>
+			<li>			
+			C.I: 13555373</li>
+						<li>			
+			tlf: 04125259367</li></div>
+          </p>
+
+
+        </div>
+      </div>
+      <!--       --------------POSTS CONTENT---------------------              -->
+      <div class="col-md-6 ml-auto ">
+        <div id="users">
+
+        </div>
+        <ul class="list-group posts ">
+
+
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+  <!--       --------------MODAL SIGNUP---------------------              -->
+  <div class="modal fade" id="signup" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Registro de usuario</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <!--       --------------FORM SIGNUP ---------------------              -->
+        <div class="modal-body">
+          <form id="signup-form">
+            <div class="form-group">
+              <label for="exampleInputEmail1">Correo Electrónico</label>
+              <input name="email" type="email" placeholder="introduce tu email" required class="form-control" id="signup-email"
+                aria-describedby="emailHelp">
+              <small id="emailHelp" class="form-text text-muted">tu correo no sera compartido con nadie</small>
+            </div>
+            <div class="form-group " id="">
+              <label for="exampleInputEmail1">Nombre</label>
+              <input name="name" type="text" placeholder="introduce tu primer y segundo nombre" required class="form-control"
+                id="signup-name" aria-describedby="emailHelp">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">apellído</label>
+              <input name="lastname" type="text" placeholder="introduce tu primer y segundo apellido" required class="form-control"
+                id="signup-lastname" aria-describedby="apellido>
+                </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Cédula</label>
+              <input name="ci" type="text" placeholder="introduce tu cedula de identidad venezolana" required class="form-control"
+                id="signup-cedula">
+                </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">nro de telefono</label>
+              <input name="phone" type="text" placeholder="04269293738"  class="form-control"
+                id="signup-phone">
+                </div>
+                <div class=" form-group">
+              <label for="exampleInputEmail1">fecha de nacimiento</label>
+              <input name="birthdate" type="date" placeholder="introduce tu fecha de nacimiento" required class="form-control"
+                min="01-01-1900" max="date" id="signup-date" aria-describedby="date">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Contraseña</label>
+              <input name="password" type="password" required class="form-control" id="signup-password">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">confirma Contraseña</label>
+              <input name="confirmPassword" type="password" required class="form-control" id="signup-confirm-password">
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-outline-primary">Registrar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!--       --------------MODAL SIGNIN---------------------              -->
+  <div class="modal fade" id="signin" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Ingreso de usuario</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <!--       --------------FORM SIGNIN ---------------------              -->
+          <form id="signin-form">
+            <div class="form-group">
+              <label for="exampleInputEmail1">Correo Electronico</label>
+              <input type="email" required class="form-control" id="signin-email" aria-describedby="emailHelp">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Contraseña</label>
+              <input type="password" required class="form-control" id="signin-password">
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck2">
+              <label class="form-check-label" for="exampleCheck2">recordar</label>
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-outline-primary">Ingresar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+
+
+
+<!--       --------------SCRIPTS  ---------------------              -->
+
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+  integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+  integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+</script>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-firestore.js"></script>
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyCbUp5NkT5drcJwqp0Vm05VYNv0_ME7acU",
+    authDomain: "chulyapp.firebaseapp.com",
+    databaseURL: "https://chulyapp.firebaseio.com",
+    projectId: "chulyapp",
+    storageBucket: "chulyapp.appspot.com",
+    messagingSenderId: "5684023303",
+    appId: "1:5684023303:web:8c9cc99491bdca484d5aa2",
+    measurementId: "G-V61LR9JRGZ"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+  const auth = firebase.auth()
+  const fs = firebase.firestore()
+</script>
+<script src="form.js"></script>
+<script src="main.js"></script>
+
+</html>

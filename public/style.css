@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+html, body {
+  background: #28254C;
+  font-family: 'Ubuntu';
+}
+.white{
+    color:white
+}
+.gray{
+  color:gainsboro;
+  font-family: 'Ubuntu';
+}
+.dark-bg{
+  background-color : darkcyan;
+}
+.ubuntu-font{
+  font-family: 'Ubuntu';
+}
+.SansitaSwashed-font{
+  font-family: 'Sansita Swashed', cursive;
+}
+.oswald-font{
+  font-family: 'Oswald', sans-serif;
+}
+
+.bone{
+  color:turquoise;
+}
+
+.nav-link {
+    font-family: 'Ubuntu';
+}
+
